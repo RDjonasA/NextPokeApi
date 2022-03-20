@@ -21,9 +21,9 @@ export const Navbar = () => {
         width={70}
         height={70}/>
     <NextLink href='/' passHref>
-      <Link>
+      <Text>
         <Text color='white'>PokeApi</Text>
-      </Link>
+      </Text>
     </NextLink>
     <Spacer css={{flex:1}}/>
     <NextLink href='/favorites'>
